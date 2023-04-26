@@ -1,0 +1,5 @@
+.nameForm {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 10px;
+}

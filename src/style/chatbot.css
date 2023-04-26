@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+#chatHistory {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 400px;
+  background-color: gray;
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: flex-end; */
+  overflow-y: scroll;
+  width: 100%;
+}
+
+#chatHistory li {
+  background-color: #eee;
+  padding: 10px;
+  margin: 0 7px 7px;
+  color: black;
+}
+#chatHistory li.system {
+  background-color: red;
+}
+
+#chatHistory li.assistant {
+  background-color: lightblue;
+}
+
+#chatHistory li.waiting {
+  background-color: unset;
+  padding: 0;
+  margin: 0;
+}
+
+#chatForm {
+  width: 100%;
+}
+
+#chatForm > * {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.textInput {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* margin: 10px 0; */
+  width: 100%;
+}

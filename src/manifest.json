@@ -1,0 +1,29 @@
+{
+  "name": "chatbot-ui",
+  "short_name": "chatbot-ui",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#673ab8",
+  "lang": "DE",
+  "icons": [
+    {
+      "src": "/assets/icons/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "config": {
+    "cb": {
+      "name": "BotSaarow",
+      "intro": "BotSaarow - ihr persönlicher Reiseassistant",
+      "greeting": "Guten Tag! Ich bin BotSaarow, Ihr Reiseassistent für Ort-Bad-Saarow. Wie kann ich Ihnen helfen?"
+    }
+  }
+}
